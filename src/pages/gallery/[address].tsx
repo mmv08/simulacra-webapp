@@ -46,14 +46,16 @@ type ServerSideProps = {
   sims: SimMetadata[]
 }
 
-const Gallery = ({ sims }: ServerSideProps): React.ReactElement => {
+function Gallery({ sims }: ServerSideProps): React.ReactElement {
   return (
     <>
       <HTMLHead title="Collection" />
       <Content>
         <h1>My collection</h1>
         {sims.length === 0 && (
-          <p style={{ marginTop: 15 }}>No SIM yet? Participate in the sale to get a unique piece. </p>
+          <p style={{ marginTop: 15 }}>
+            No SIM yet? Check out <a href="https://opensea.io/collection/simulacra-v2">OpenSea</a>.{" "}
+          </p>
         )}
         <SimContainer>
           {sims.length > 0 &&

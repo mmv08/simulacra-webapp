@@ -17,21 +17,6 @@ const Content = styled.main`
   }
 `
 
-const FixedLink = styled.a`
-  position: fixed;
-  right: 10%;
-  bottom: 10%;
-  z-index: 10;
-  text-transform: uppercase;
-  padding: 8px 20px;
-  border: 1px solid var(--text);
-  border-radius: 50px;
-  min-height: 24px;
-  font-size: 1.25rem;
-  color: var(--text);
-  background: var(--background);
-`
-
 const MainSection = styled.section`
   display: flex;
   justify-content: center;
@@ -103,10 +88,6 @@ function Info({ currentSimPriceWei }: ServerSideProps): React.ReactElement {
     <>
       <HTMLHead title="Info" />
       <Content>
-        {/* <Link href="/commission" passHref>
-          <FixedLink>Participate</FixedLink>
-        </Link> */}
-
         <MainSection>
           <h1>
             There will be a total of 3,447 unique SIMs. Each of them is created by combining parts of well-known

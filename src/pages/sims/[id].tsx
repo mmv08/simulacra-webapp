@@ -119,7 +119,7 @@ type ServerSideProps = {
   metadata: SimMetadata
 }
 
-const SimPage = ({ initialPrice, owner, metadata }: ServerSideProps): React.ReactElement => {
+function SimPage({ initialPrice, owner, metadata }: ServerSideProps): React.ReactElement {
   const {
     query: { id = "" },
     push,

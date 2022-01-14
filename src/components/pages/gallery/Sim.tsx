@@ -5,7 +5,7 @@ type Props = {
   metadata: SimMetadata
 }
 
-const Sim = ({ metadata }: Props): React.ReactElement => {
+function Sim({ metadata }: Props): React.ReactElement {
   const imgUrl = `${process.env.NEXT_PUBLIC_IPFS_GATEWAY}/${metadata.image.slice(7)}`
 
   return (

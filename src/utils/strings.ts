@@ -1,4 +1,4 @@
-const textShortener = (text: string, charsStart: number, charsEnd: number, separator = "..."): string => {
+function textShortener(text: string, charsStart: number, charsEnd: number, separator = "..."): string {
   const amountOfCharsToKeep = charsEnd + charsStart
 
   if (amountOfCharsToKeep >= text.length || !amountOfCharsToKeep) {
