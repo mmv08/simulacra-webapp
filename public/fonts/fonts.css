@@ -1,0 +1,15 @@
+@font-face {
+  font-family: "Voyage";
+  font-style: normal;
+  font-weight: regular;
+  font-display: swap;
+  src: url("Voyage-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Voyage";
+  font-style: normal;
+  font-weight: bold;
+  font-display: swap;
+  src: url("Voyage-Bold.woff2") format("woff2");
+}

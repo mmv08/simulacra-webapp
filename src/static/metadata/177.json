@@ -1,0 +1,21 @@
+{
+    "description": "Simulacra is an NFT art project inspired by Jean Baudrillard's Simulacra and Simulation. Simulacra refers to representations of objects which may or may not have an original.",
+    "external_url": "https://simulacra.art",
+    "background_color": "FFFFFF",
+    "name": "Simulacra #0177",
+    "image": "ipfs://QmQqnno53nzMLKbD88VaNu4CmrP1895sUkJxFm25bLxmXt/177.png",
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Seurat"
+        },
+        {
+            "trait_type": "Middleground",
+            "value": "Zhang Zeduan"
+        },
+        {
+            "trait_type": "Foreground",
+            "value": "Bosch"
+        }
+    ]
+}
